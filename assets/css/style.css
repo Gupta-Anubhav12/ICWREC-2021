@@ -130,6 +130,21 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin-bottom: 10px;
 }
+.section-header h4 {
+  font-size: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  /* margin-bottom: 10px; */
+}
+
+.section-header h3 {
+  font-size: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  /* margin-bottom: 10px; */
+}
 
 .section-header p {
   text-align: center;
@@ -695,8 +710,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   position: relative;
   color: #fff;
-  padding: 60px 0 40px 0;
-}
+  padding: 60px 0 40px 0;}
+/* }
 #trac {
   background: url("../img/about-bg.jpg");
   background-size: cover;
@@ -740,7 +755,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
-}
+} */
 
 @media (min-width: 1024px) {
   #about {
