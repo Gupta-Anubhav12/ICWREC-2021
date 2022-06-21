@@ -36,6 +36,14 @@ body {
   z-index: 1000;
   left: 50%;
   transform: translateX(-40%);
+
+  bottom: 20px;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  z-index: 1000;
+  left: 50%;
+  transform: translateX(-40%);
 }
 
 a {
@@ -1849,6 +1857,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 h3 {
   font-weight: 700;
 }
+
 h4 {
   font-weight: 700;
 }
@@ -2138,6 +2147,7 @@ section .section-title {
   -ms-transition: 1s;
   -moz-transition: 1s;
   -moz-transform: perspective(1000px);
+  transform: perspective(1000px);
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transition: 1s;
@@ -2149,6 +2159,7 @@ section .section-title {
   position: relative;
   -webkit-transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
   z-index: 2;
   margin-bottom: 30px;
 }
